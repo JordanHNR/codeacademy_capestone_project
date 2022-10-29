@@ -1,0 +1,47 @@
+html{
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 0 24px 0 24px;
+    height: 64px;
+}
+
+#home{
+    display: inline-block;
+    height: 32px;
+    margin: 16px 0 16px 0;
+}
+
+#logo{
+    height: 100%;
+    float: left;
+}
+
+h1{
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+    margin: 8px 0 8px 0;
+}
+
+#h1-span-colmar{
+    font-weight: bold;
+}
+
+#h1-span-academy{
+    font-weight: lighter;
+}
+
+nav{
+    display: inline-block;
+    float: right;
+    margin: 24px 0 24px 0px;
+}
+
+nav a{
+    margin: 0 0 0 16px;
+}
