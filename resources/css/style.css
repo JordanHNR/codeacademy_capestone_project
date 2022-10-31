@@ -66,10 +66,64 @@ nav a{
     position: relative;
 }
 
+#banner-txt p{
+    margin: 16px 0 16px 0;
+}
+
 .link-btn{
     width: 50%;
     padding: 8px 0 8px 0;
     text-align: center;
     position: absolute;
     background-color: gray;
+}
+
+#information{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#information-main{
+    margin: 32px 24px 32px 24px;
+}
+
+#information-main img{
+    width: 60%;
+    height: auto;
+    margin-bottom: 32px;
+}
+
+#information-main p{
+    margin: 24px 0 24px 0;
+}
+
+#information-additional{
+    width: 40%;
+    margin: 32px 24px 32px 24px;
+}
+
+.information-preview{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.information-preview img{
+    position: relative;
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.information-preview-txt{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 65%;
+}
+
+.information-preview-txt p{
+    margin: 8px 0 8px 0;
 }
