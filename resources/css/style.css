@@ -51,6 +51,7 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: gray;
 }
 
 #banner-img{
@@ -126,4 +127,45 @@ nav a{
 
 .information-preview-txt p{
     margin: 8px 0 8px 0;
+}
+
+#courses{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+    background-color: gray;
+}
+
+.courses-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-items-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.course-preview{
+    margin: 32px 32px 0 32px;
+}
+
+.course-preview img{
+    width: 100%;
+    height: auto;
+}
+
+.course-preview-txt{
+    padding: 16px 16px 24px 16px;
+}
+
+.course-preview-txt h3{
+    margin-bottom: 8px;
+}
+
+.course-preview-txt p{
+    margin-top: 8px;
 }
